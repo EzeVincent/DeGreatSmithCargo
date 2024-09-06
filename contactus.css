@@ -1,0 +1,39 @@
+.form-map{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ }
+ .form-map1{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-width: 300px;
+   padding: 10px;
+   height: 100%;
+ }
+ .form-map2{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  padding: 5px;
+  height: 100%;
+}
+ .form-map2 iframe{
+  width: 100%;
+   border-radius: 10px;
+ }
+ .form-map1 h4{
+  color: var(--text-color);
+ }
+ .form-map .form-label{
+ color: var(--text-color);
+ }

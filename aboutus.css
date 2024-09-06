@@ -1,0 +1,137 @@
+h1{
+  color:  var(--cta-color);
+  text-align: center;
+  font-size: 34px;
+  overflow: none;
+  margin: 5px;
+  transition: ease;
+  animation-name: bouncea;
+  animation-timing-function: 5s;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  transition-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+}
+@keyframes bouncea {
+  0%
+  {
+      transform: translateY(-200px); opacity: 1;
+  }
+  20%,60%{
+      transform: translateY(0); opacity: 1;
+  }
+  40% {
+      transform: translateY(-30px); opacity: 1;
+  }
+  80% {
+      transform: translateY(-15px); opacity: 1;
+  }
+  100% {
+      transform: translateY(0); opacity: 1;
+  }
+}
+
+.aboutus{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  padding:15px;
+}
+.story{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: auto;
+ width: 100%;
+ padding: 20px;
+}
+.story h2{
+  text-align: center;
+  font-size: 26px;
+}
+.story p{
+  text-align: center;
+  max-width: 650px;
+}
+.about{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+}
+.about1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  padding: 10px;
+  height: 960px;
+}
+.about1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.about1a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 280px;
+  width: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(158, 157, 157, 0.5);
+  margin: 2rem;
+  border-radius: 10px;
+}
+.about1a svg{
+  box-shadow: 0px 0px 5px rgba(163, 162, 162, 0.5);
+  position: absolute;
+  top: 38%;
+  left: -30px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+.about1a h3{
+  margin-top: 20px;
+  text-align: left;
+}
+.about1a p{
+  margin: 5px;
+  text-align: left;
+}
+@media (max-width: 560px) {
+  .about1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    padding: 10px;
+    height: 100%;
+  }
+  .about1a svg{
+    box-shadow: 0px 0px 5px rgba(163, 162, 162, 0.5);
+    position: absolute;
+    top: -25px;
+    left: 42%;
+    border-radius: 10px;
+
+    
+  }
+}

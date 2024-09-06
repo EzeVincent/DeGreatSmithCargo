@@ -425,8 +425,8 @@ padding-top: 2px;
  position: absolute;
  left: 0px;
  bottom: 0px;
- width: 290px;
- height: 200px;
+ width: 200px;
+ height: 150px;
  transition: ease;
  animation-name: dance;
  animation-timing-function: 2s;
@@ -441,7 +441,7 @@ padding-top: 2px;
     bottom: 0px;
  }
  50%{
-  left: 100px;
+  left: 80px;
   bottom: 200px;
  }
  100%{
